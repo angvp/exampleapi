@@ -2,7 +2,7 @@ from rest_framework.generics import (ListCreateAPIView,
                                      RetrieveUpdateDestroyAPIView)
 
 from .models import Post
-from .serializers import TagSerializer
+from .serializers import PostSerializer
 
 
 class PostList(ListCreateAPIView):
